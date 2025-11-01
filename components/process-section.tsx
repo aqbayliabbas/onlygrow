@@ -21,20 +21,20 @@ export function ProcessSection() {
   ]
 
   return (
-    <section className="py-32 px-6 lg:px-12 bg-card/30">
-      <div className="max-w-7xl mx-auto space-y-16">
-        <h2 className="font-[family-name:var(--font-bebas)] text-4xl md:text-6xl lg:text-7xl text-center text-balance leading-tight">
+    <section className="py-5 px-8 lg:px-20 xl:px-32 bg-card/30">
+      <div className="max-w-6xl mx-auto space-y-12">
+        <h2 className="font-[family-name:var(--font-bebas)] text-3xl md:text-4xl lg:text-5xl text-center text-balance leading-tight">
           Our Process
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-6">
           {steps.map((step, i) => (
             <div
               key={i}
-              className="bg-[var(--dark-card)] text-[var(--dark-card-foreground)] rounded-2xl p-8 space-y-6 border border-secondary/20"
+              className="bg-[var(--dark-card)] text-[var(--dark-card-foreground)] rounded-2xl p-6 space-y-4 border border-secondary/20"
             >
               <div className="space-y-4">
-                <div className="w-[200px] h-[200px] mx-auto overflow-hidden rounded-xl bg-transparent">
+                <div className="w-[160px] h-[160px] mx-auto overflow-hidden rounded-xl bg-transparent">
                   <img
                     src={step.image}
                     alt={`${step.title} illustration`}
@@ -44,8 +44,8 @@ export function ProcessSection() {
                   />
                 </div>
                 <div className="text-sm text-secondary font-semibold">{step.number}</div>
-                <h3 className="text-2xl md:text-3xl font-semibold text-balance leading-tight">{step.title}</h3>
-                <p className="text-[var(--dark-card-foreground)]/80 leading-relaxed">{step.description}</p>
+                <h3 className="text-xl md:text-2xl font-semibold text-balance leading-tight">{step.title}</h3>
+                <p className="text-sm text-[var(--dark-card-foreground)]/80 leading-relaxed">{step.description}</p>
               </div>
             </div>
           ))}

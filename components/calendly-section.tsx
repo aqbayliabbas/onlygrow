@@ -15,13 +15,13 @@ export function CalendlySection() {
   }, [])
 
   return (
-    <section id="calendly" className="py-0 px-0">
-      <div className="max-w-6xl mx-auto space-y-12">
+    <section id="calendly" className="py-0 px-8 lg:px-20 xl:px-32">
+      <div className="max-w-5xl mx-auto space-y-12">
         <div className="text-center space-y-6">
-          <h2 className="font-[family-name:var(--font-bebas)] text-5xl md:text-7xl text-balance leading-tight">
+          <h2 className="font-[family-name:var(--font-bebas)] text-4xl md:text-5xl text-balance leading-tight">
             Ready to Grow?
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base text-muted-foreground max-w-xl mx-auto">
             Book a free strategy call and let's build a brand that converts.
           </p>
         </div>

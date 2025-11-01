@@ -54,9 +54,9 @@ export function TestimonialGrid() {
   }, [])
 
   return (
-    <section className="py-32 px-6 lg:px-12 bg-card/30 overflow-hidden">
-      <div className="max-w-7xl mx-auto space-y-16">
-        <h2 className="font-[family-name:var(--font-bebas)] text-4xl md:text-6xl text-center text-balance leading-tight">
+    <section className="py-5 px-8 lg:px-20 xl:px-32 bg-card/30 overflow-hidden">
+      <div className="max-w-6xl mx-auto space-y-12">
+        <h2 className="font-[family-name:var(--font-bebas)] text-3xl md:text-4xl text-center text-balance leading-tight">
           What Our Clients Have to Say.
         </h2>
 
@@ -66,14 +66,14 @@ export function TestimonialGrid() {
 
           <div ref={scrollRef} className="flex gap-8 overflow-x-hidden" style={{ scrollBehavior: "auto" }}>
             {[...testimonials, ...testimonials].map((testimonial, i) => (
-              <div key={i} className="bg-card border border-border/50 rounded-2xl p-8 space-y-6 flex-shrink-0 w-96">
+              <div key={i} className="bg-card border border-border/50 rounded-2xl p-6 space-y-4 flex-shrink-0 w-80">
                 <div className="flex gap-1">
                   {[...Array(5)].map((_, j) => (
                     <Star key={j} className="w-4 h-4 fill-primary text-primary" />
                   ))}
                 </div>
 
-                <p className="text-lg leading-relaxed text-balance">"{testimonial.quote}"</p>
+                <p className="text-base leading-relaxed text-balance">"{testimonial.quote}"</p>
 
                 <div>
                   <p className="font-semibold">{testimonial.author}</p>

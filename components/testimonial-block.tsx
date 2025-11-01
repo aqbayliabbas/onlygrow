@@ -2,9 +2,9 @@ import { Star } from "lucide-react"
 
 export function TestimonialBlock() {
   return (
-    <section className="py-32 px-6 lg:px-12">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+    <section className="py-5 px-8 lg:px-20 xl:px-32">
+      <div className="max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="bg-muted/20 rounded-2xl aspect-video flex items-center justify-center border border-border/30">
             <span className="text-xs text-muted-foreground">Testimonial Video</span>
           </div>
@@ -16,7 +16,7 @@ export function TestimonialBlock() {
               ))}
             </div>
 
-            <blockquote className="text-xl md:text-2xl leading-relaxed text-balance">
+            <blockquote className="text-lg md:text-xl leading-relaxed text-balance">
               "OnlyGrow helped us go from random campaigns to a unified system that converts. We scaled from $50K/mo to
               $200K/mo in 90 days."
             </blockquote>

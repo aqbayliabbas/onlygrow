@@ -38,8 +38,8 @@ export function TrustSection() {
   }, [])
 
   return (
-    <section className="py-20 px-6 lg:px-12 border-t border-border/30 overflow-hidden">
-      <div className="max-w-7xl mx-auto text-center space-y-12">
+    <section className="py-4 px-8 lg:px-20 xl:px-32 border-t border-border/30 overflow-hidden">
+      <div className="max-w-6xl mx-auto text-center space-y-12">
         <p className="text-sm uppercase tracking-wider text-muted-foreground">Trusted by teams who scale fast.</p>
 
         <div className="relative">

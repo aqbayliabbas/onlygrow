@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen pt-20">
+      <main className="min-h-screen pt-16">
         <HeroSection />
         <TrustSection />
         <PainPointsSection />

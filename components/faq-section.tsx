@@ -21,9 +21,9 @@ export function FAQSection() {
   ]
 
   return (
-    <section className="py-32 px-6 lg:px-12">
-      <div className="max-w-3xl mx-auto space-y-12">
-        <h2 className="font-[family-name:var(--font-bebas)] text-4xl md:text-6xl text-center text-balance leading-tight">
+    <section className="py-5 px-8 lg:px-20 xl:px-32">
+      <div className="max-w-2xl mx-auto space-y-12">
+        <h2 className="font-[family-name:var(--font-bebas)] text-3xl md:text-4xl text-center text-balance leading-tight">
           FAQs
         </h2>
 
@@ -31,7 +31,7 @@ export function FAQSection() {
           {faqs.map((faq, i) => (
             <AccordionItem key={i} value={`item-${i}`}>
               <AccordionTrigger
-                className="group text-left text-lg md:text-xl px-6 py-5 rounded-2xl border border-primary/30 bg-card/5 hover:bg-card/10 transition [&>svg]:hidden"
+                className="group text-left text-base md:text-lg px-6 py-4 rounded-2xl border border-primary/30 bg-card/5 hover:bg-card/10 transition [&>svg]:hidden"
               >
                 <div className="flex items-center gap-4 w-full">
                   <span className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-primary/40">
