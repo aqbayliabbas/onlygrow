@@ -16,8 +16,8 @@ export function CalendlySection() {
 
   return (
     <section id="calendly" className="py-0 px-8 lg:px-20 xl:px-32">
-      <div className="max-w-5xl mx-auto space-y-12">
-        <div className="text-center space-y-6">
+      <div className="max-w-5xl mx-auto space-y-1">
+        <div className="text-center space-y-2">
           <h2 className="font-[family-name:var(--font-bebas)] text-4xl md:text-5xl text-balance leading-tight">
             Ready to Grow?
           </h2>
@@ -26,9 +26,9 @@ export function CalendlySection() {
           </p>
         </div>
         <div
-          className="calendly-inline-widget w-full rounded-2xl overflow-hidden border border-border/50 shadow-lg"
+          className="calendly-inline-widget w-full overflow-hidden"
           data-url="https://calendly.com/lwennasebbas/onlygrowcall"
-          style={{ minWidth: "320px", width: "100%", height: "820px" }}
+          style={{ minWidth: "320px", width: "100%", height: "1000px" }}
         />
       </div>
     </section>

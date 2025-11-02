@@ -1,22 +1,22 @@
 export function SolutionSection() {
   const solutions = [
     {
-      title: "Transform Your Influence Into a Recognizable Brand",
-      highlight: "Transform Your Influence",
-      description: "We help you evolve from content creator to brand owner with a distinctive identity that stands out in crowded markets and converts followers into customers.",
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-XTBagsCvZi974sRsXEEiIgRhTwpqTN.png",
+      title: "Build a Powerful Brand Identity",
+      highlight: "Brand Identity",
+      description: "Stand out in crowded markets with a distinctive brand that converts followers into loyal customers.",
+      image: "/1x/imgGrid1.png",
     },
     {
-      title: "Monetize Your Audience Effectively",
-      highlight: "Monetize Your Audience",
-      description: "Turn your engaged following into a sustainable business with products and messaging that your audience actually wants to buy.",
-      image: "/person-on-phone-with-dramatic-lighting.jpg",
+      title: "Monetize Your Following",
+      highlight: "Monetize",
+      description: "Turn engagement into revenue with products and messaging your audience loves.",
+      image: "/1x/imgGrid2.jpg",
     },
     {
-      title: "Build a Business That Scales With You",
-      highlight: "Business That Scales",
-      description: "Create systems and strategies that allow your brand to grow beyond your personal reach, turning your influence into a lasting business.",
-      image: "/premium-branded-products.jpg",
+      title: "Scale Your Business",
+      highlight: "Scale",
+      description: "Build systems that grow your business beyond your personal reach.",
+      image: "/1x/imgGrid3.jpg",
     },
   ]
 
@@ -24,7 +24,7 @@ export function SolutionSection() {
     <section className="py-5 px-8 lg:px-20 xl:px-32">
       <div className="max-w-6xl mx-auto space-y-12">
         <h2 className="font-[family-name:var(--font-bebas)] text-3xl md:text-4xl lg:text-5xl text-center text-balance leading-tight">
-          From Influencer to Brand Owner Your Path to Business Success
+          From Creator to Business Owner
         </h2>
 
         <div className="space-y-8">

@@ -16,12 +16,12 @@ export function PainPointsSection() {
 
   return (
     <section className="py-5 px-8 lg:px-20 xl:px-32">
-      <div className="max-w-6xl mx-auto space-y-12">
+      <div className="max-w-6x mx-auto space-y-12">
         <h2 className="font-[family-name:var(--font-bebas)] text-3xl md:text-4xl lg:text-5xl text-center text-balance leading-tight">
           Are You Ready to Turn Your Influence Into a Business That Lasts?
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-3">
+        <div className="grid md:grid-cols-3 gap-15">
           {painPoints.map((point, i) => (
             <div key={i} className="bg-[#1c4734] text-[#fbf2d3] rounded-2xl p-6 space-y-4 border border-[#dda81e]/20">
               <div className="space-y-2">

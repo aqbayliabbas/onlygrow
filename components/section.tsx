@@ -7,7 +7,7 @@ interface SectionProps {
 }
 
 export function Section({ children, className = '', noSpacing = false }: SectionProps) {
-  const spacingClasses = noSpacing ? 'py-0' : 'py-10 md:py-16 lg:py-20';
+  const spacingClasses = noSpacing ? 'py-0' : 'py-8 sm:py-12 md:py-16 lg:py-20';
   
   return (
     <section className={`${spacingClasses} ${className}`}>

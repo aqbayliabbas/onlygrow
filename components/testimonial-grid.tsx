@@ -37,7 +37,7 @@ export function TestimonialGrid() {
     if (!scrollContainer) return
 
     let scrollAmount = 0
-    const scrollSpeed = 0.3
+    const scrollSpeed = 1.3
 
     const scroll = () => {
       scrollAmount += scrollSpeed
@@ -61,8 +61,8 @@ export function TestimonialGrid() {
         </h2>
 
         <div className="relative">
-          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-card/30 via-card/30 to-transparent z-10 pointer-events-none" />
-          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-card/30 via-card/30 to-transparent z-10 pointer-events-none" />
+          <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none" />
 
           <div ref={scrollRef} className="flex gap-8 overflow-x-hidden" style={{ scrollBehavior: "auto" }}>
             {[...testimonials, ...testimonials].map((testimonial, i) => (

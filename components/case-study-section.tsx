@@ -11,8 +11,8 @@ export function CaseStudySection() {
           </p>
         </div>
 
-        <div className="bg-primary/10 border-2 border-primary/30 rounded-3xl p-6 md:p-8">
-          <img src="1.png" alt="" />
+        <div className="rounded-3xl p-0 md:p-0">
+          <img src="/1x/bliss.jpg" alt="project" />
         </div>
       </div>
     </section>
