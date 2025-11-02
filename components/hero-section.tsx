@@ -3,9 +3,10 @@ import { Button } from "@/components/ui/button"
 export function HeroSection() {
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-8 lg:px-20 xl:px-32 py-20 text-center">
-      <div className="max-w-5xl mx-auto space-y-8">
+      <div className="max-w-5xl mx-auto space-y-3">
         <h1 className="font-[family-name:var(--font-bebas)] text-4xl md:text-5xl lg:text-6xl leading-[0.95] tracking-tight text-balance">
-          We Help Ambitious Founders Build Brands That Don't Just Look Good — They Grow.
+          From Influencer to Empire Builder<br/>
+          <span className="text-primary">Launch & Scale</span> Your Own Brand Successfully
         </h1>
 
         <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto text-pretty leading-relaxed">

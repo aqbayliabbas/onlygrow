@@ -4,19 +4,24 @@ import { Minus, Plus } from "lucide-react"
 export function FAQSection() {
   const faqs = [
     {
-      question: "What makes OnlyGrow different?",
-      answer:
-        "We don't just make things look pretty. Every design decision is backed by growth strategy and conversion optimization. We focus on building brands that actually drive revenue, not just win design awards.",
+      question: "How can you help me improve my personal brand as an influencer?",
+      answer: "We specialize in crafting distinctive brand identities that make you stand out. We'll develop your visual identity, brand voice, and messaging framework that authentically represents you and resonates with your target audience.",
     },
     {
-      question: "Who do you work with?",
-      answer:
-        "We work with ambitious founders and growing companies who are serious about scaling. Our ideal clients are in the $100K-$5M revenue range and ready to invest in their brand as a growth engine.",
+      question: "What's included in your branding services?",
+      answer: "Our branding services include brand strategy, visual identity design (logo, color palette, typography), brand guidelines, and key messaging. We focus on creating a cohesive brand that works across all your platforms and touchpoints.",
     },
     {
-      question: "Do you guarantee results?",
-      answer:
-        "While we can't guarantee specific numbers (anyone who does is lying), we do guarantee a strategic, data-driven approach that has consistently delivered results for our clients. We measure success through clear KPIs and optimize continuously.",
+      question: "How do you ensure the brand reflects my unique personality?",
+      answer: "We start with an in-depth discovery process to understand your values, style, and goals. Through workshops and interviews, we capture your essence and translate it into a visual and verbal identity that's uniquely you.",
+    },
+    {
+      question: "What makes your communication strategy different?",
+      answer: "We don't believe in one-size-fits-all messaging. Our communication strategies are tailored to your voice and audience, ensuring consistency across all platforms while maintaining authenticity and engagement.",
+    },
+    {
+      question: "How long does the branding process take?",
+      answer: "Our brand development process typically takes 4-6 weeks from initial consultation to final delivery. This includes research, strategy, design iterations, and finalizing all brand assets and guidelines.",
     },
   ]
 
@@ -24,7 +29,7 @@ export function FAQSection() {
     <section className="py-5 px-8 lg:px-20 xl:px-32">
       <div className="max-w-2xl mx-auto space-y-12">
         <h2 className="font-[family-name:var(--font-bebas)] text-3xl md:text-4xl text-center text-balance leading-tight">
-          FAQs
+          Branding & Communication FAQs
         </h2>
 
         <Accordion type="single" collapsible className="w-full space-y-4">

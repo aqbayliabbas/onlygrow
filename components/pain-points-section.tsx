@@ -1,16 +1,16 @@
 export function PainPointsSection() {
   const painPoints = [
     {
-      title: 'You look "nice," but nobody remembers you.',
-      description: "Your brand blends in with everyone else in your space.",
+      title: 'You have the audience, but not the brand to match.',
+      description: "Your influence is growing, but your personal brand isn't translating into a scalable business yet.",
     },
     {
-      title: "Your ads feel disconnected from your identity.",
-      description: "Marketing campaigns don't align with your brand story.",
+      title: "Your content gets likes, but not enough sales.",
+      description: "Engagement is high, but you're struggling to convert followers into paying customers.",
     },
     {
-      title: "You keep changing strategies — but sales stay flat.",
-      description: "Nothing seems to stick or drive consistent growth.",
+      title: "You're tired of just promoting other people's products.",
+      description: "You're ready to be the brand that others want to promote, but don't know where to start.",
     },
   ]
 
@@ -18,7 +18,7 @@ export function PainPointsSection() {
     <section className="py-5 px-8 lg:px-20 xl:px-32">
       <div className="max-w-6xl mx-auto space-y-12">
         <h2 className="font-[family-name:var(--font-bebas)] text-3xl md:text-4xl lg:text-5xl text-center text-balance leading-tight">
-          Is Your Brand Silently Killing Your Growth?
+          Are You Ready to Turn Your Influence Into a Business That Lasts?
         </h2>
 
         <div className="grid md:grid-cols-3 gap-3">

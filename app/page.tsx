@@ -11,6 +11,7 @@ import { FounderSection } from "@/components/founder-section"
 import { CalendlySection } from "@/components/calendly-section"
 import { FAQSection } from "@/components/faq-section"
 import { Footer } from "@/components/footer"
+import { Section } from "@/components/section"
 
 export default function Home() {
   return (
@@ -18,16 +19,36 @@ export default function Home() {
       <Navbar />
       <main className="min-h-screen pt-16">
         <HeroSection />
-        <TrustSection />
-        <PainPointsSection />
-        <SolutionSection />
-        <TestimonialBlock />
-        <ProcessSection />
-        <CaseStudySection />
-        <TestimonialGrid />
-        <FounderSection />
-        <CalendlySection />
-        <FAQSection />
+        <Section noSpacing>
+          <TrustSection />
+        </Section>
+        <Section>
+          <PainPointsSection />
+        </Section>
+        <Section>
+          <SolutionSection />
+        </Section>
+        <Section>
+          <TestimonialBlock />
+        </Section>
+        <Section>
+          <ProcessSection />
+        </Section>
+        <Section>
+          <CaseStudySection />
+        </Section>
+        <Section>
+          <TestimonialGrid />
+        </Section>
+        <Section>
+          <FounderSection />
+        </Section>
+        <Section>
+          <CalendlySection />
+        </Section>
+        <Section>
+          <FAQSection />
+        </Section>
         <Footer />
       </main>
     </>
